@@ -1,0 +1,103 @@
+body {
+  color: white;
+  /* Define a cor do texto como branco */
+
+  background: rgb(1, 34, 55);
+  /* Define o fundo da página como preto */
+
+  margin: 0px;
+  /* Remove a margem padrão da página */
+
+  font-family: "Chakra Petch", sans-serif;
+  /* Define a fonte da página como 'Chakra Petch' e define uma fonte alternativa sans-serif caso a primeira não esteja disponível */
+
+  margin-bottom: 100px;
+  /* Adiciona uma margem inferior de 100px à página */
+}
+
+header {
+  border-bottom: solid 2px rgb(255, 255, 255);
+  /* Adiciona uma borda inferior de 2px ao cabeçalho, com a cor azul definida pelo código RGB */
+
+  padding: 20px;
+  /* Adiciona um preenchimento de 20px ao redor do conteúdo do cabeçalho */
+
+  font-size: 32px;
+  /* Define o tamanho da fonte do cabeçalho como 32px */
+
+  color: rgb(42, 122, 228);
+  /* Define a cor do texto do cabeçalho como azul */
+}
+
+.chamada {
+  background: rgb(123, 150, 225);
+  /* Define o fundo da seção "chamada" como uma cor lilás, definida pelo código RGB */
+
+  padding-bottom: 80px;
+  /* Adiciona um preenchimento inferior de 80px à seção */
+
+  padding-top: 80px;
+  /* Adiciona um preenchimento superior de 80px à seção */
+
+  display: flex;
+  /* Define o layout da seção como flexbox para alinhar os itens horizontalmente */
+
+  justify-content: center;
+  /* Centraliza horizontalmente o conteúdo dentro da seção */
+}
+
+.chamada-texto {
+  margin-right: 5%;
+  /* Adiciona uma margem direita de 5% ao texto dentro da chamada */
+}
+
+h1 {
+  font-size: 40px;
+  /* Define o tamanho da fonte para os títulos <h1> como 40px */
+}
+
+p {
+  font-size: 20px;
+  /* Define o tamanho da fonte para os parágrafos <p> como 20px */
+}
+
+.categoria-videos {
+  display: flex;
+  /* Define o layout da seção como flexbox para alinhar os vídeos horizontalmente */
+
+  overflow-x: auto;
+  /* Adiciona uma barra de rolagem horizontal para os vídeos se eles ultrapassarem a largura disponível */
+
+  gap: 10px;
+  /* Adiciona um espaço de 10px entre os vídeos */
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  /* Adiciona um preenchimento de 20px à esquerda e à direita da seção "categoria" */
+
+  margin-top: 50px;
+  /* Adiciona uma margem superior de 50px à seção */
+}
+
+.categoria-videos img {
+  opacity: 0.5;
+  /* Define a opacidade das imagens dos vídeos para 50%, criando um efeito de semitransparência */
+
+  height: 200px;
+  /* Define a altura das imagens dos vídeos como 200px */
+}
+
+.categoria-videos img:hover {
+  opacity: 1.0;
+  /* Aumenta a opacidade das imagens dos vídeos para 100% ao passar o mouse por cima, removendo a semitransparência */
+
+  border: 3px solid rgb(0, 131, 253);
+  /* Adiciona uma borda verde de 3px ao redor da imagem quando o mouse passa por cima */
+}
+
+.categoria h2 {
+  color: rgb(42, 122, 228);
+  /* Define a cor do texto dos títulos <h2> como azul */
+}
